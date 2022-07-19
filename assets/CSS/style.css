@@ -1,0 +1,78 @@
+* {
+    font-family: Arial, Helvetica, sans-serif
+}
+
+body {
+    background-color: #fafcd3;
+}
+
+section {
+    margin: 100px auto;
+    display: flex;
+    justify-content: center;
+    background: #efeba9;
+    border-radius: 20px;
+    width: 50%;
+    padding-bottom: 20px;
+    color: #332e1d;
+}
+
+.title {
+    text-align: center;
+}
+
+.containerForm {
+    display: flex;
+}
+
+.items1,
+.items2 {
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 10px;
+    font-size: 15px;
+}
+
+.campo {
+    display: flex;
+    flex-direction: row;
+}
+
+.campo input,
+.campo select {
+    border-radius: 5px;
+    text-align: center;
+    border: 0;
+    line-height: 20px;
+}
+
+select:invalid {
+    color: gray;
+}
+
+label,
+input {
+    margin-top: 10px;
+    margin-right: 10px;
+}
+.buttons {
+    text-align: center;
+}
+
+.buttons input {
+    padding: 10px;
+    text-transform:uppercase;
+    background-color: #5ac7aa;
+    color: white;
+    border-radius: 10px;
+    border: 0;
+
+}
+
+.buttons input:hover {
+    text-shadow: 1px 1px 5px #332e1d;
+    background-color: #9adcb9;
+}
+
+
+

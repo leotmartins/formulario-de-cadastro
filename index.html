@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastre-se</title>
+    <link rel="stylesheet" href="assets/CSS/style.css">
+</head>
+
+<body>
+    <header>
+
+    </header>
+    <section>
+        <form action="">
+            <div class="title">
+                <h1>Cadastre-se</h1>
+            </div>
+            <div class="containerForm">
+
+                <div class="items1">
+                    <div class="campo">
+                        <label for="name">Nome:</label>
+                        <input type="text" id="name" name="name" placeholder="Nome Completo" required>
+                    </div>
+                    <div class="campo">
+                        <label for="birthDate">Data de Nascimento:</label>
+                        <input type="date" id="birthDate" name="birthDate" required>
+                    </div>
+                    <div class="campo">
+                        <label for="">Sexo:</label>
+                        <input type="radio" id="masc" name="gender" value="Masculino">
+                        <label for="masc">M</label>
+                        <input type="radio" id="fem" name="gender" value="Feminino">
+                        <label for="fem">F</label>
+                    </div>
+                </div>
+
+                <div class="items2">
+                    <div class="campo">
+                        <label for="schooling">Escolaridade:</label>
+                        <select name="schooling" id="schooling" required>
+                            <option value="" disabled selected>Selecionar</option>
+                            <option value="fundInc">Fundamental Incompleto</option>
+                            <option value="fundComp">Fundamental Completo</option>
+                            <option value="medInc">Médio Incompleto</option>
+                            <option value="medComp">Médio Completo</option>
+                            <option value="supInc">Superior Incompleto</option>
+                            <option value="supComp">Superior Completo</option>
+                        </select>
+                    </div>
+                    <div class="campo">
+                        <label for="cel">Celular:</label>
+                        <input type="number" id="cel" name="celular" placeholder="(99) 99999-9999" required>
+                    </div>
+                    <div class="campo">
+                        <label for="email">E-mail:</label>
+                        <input type="email" id="email" name="email" placeholder="email@email.com.br" required>
+                    </div>
+
+
+
+
+                </div>
+            </div>
+            <div class="buttons">
+                <input type="submit" id="submit" value="Cadastrar">
+                <input type="submit" id="clean" value="Limpar Campos">
+            </div>
+        </form>
+    </section>
+    <footer>
+
+    </footer>
+
+</body>
+
+</html>
